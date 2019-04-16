@@ -1,28 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import ProjectGrid from './components/ProjectGrid';
+import AnimatedTitle from './components/AnimatedTitle';
+import styled from 'styled-components';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const App = () => {
+  const StyledDiv = styled.div`
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+  `;
+  return (
+    <StyledDiv>
+      <AnimatedTitle title="portfolio-" />
+      <ProjectGrid />
+    </StyledDiv>
+  );
+};
 
 export default App;
+/*
+-header footer logo?
+-background image?
+-add cv
+-add onClick for animatedName to open about me  
+-replace slackD with RSVP for now
+-add 'this' as project
+-make responsive
+-npm build and deploy to porfolio on github
+*/
