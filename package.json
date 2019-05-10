@@ -2,7 +2,7 @@
   "name": "portfolio19",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lubnanaqvi.github.io/portfolio19/",
+  "homepage": "https://lubnanaqvi.github.io/portfolio19/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
