@@ -6,11 +6,19 @@ const StyledSpan = styled.div`
   cursor: pointer;
   background-color: #174a45;
   color: white;
-  width: 500px;
+  width: 800px;
+  margin: auto;
   transition: transform 1s linear;
   border: solid 1px black;
   &:hover {
-    transform: rotate(-90deg) translate(-275px, -275px);
+    transform: rotate(-90deg) translate(-270px, -425px);
+    width: 500px;
+  }
+  @media (max-width: 800px) {
+    width: 90% !important;
+    margin: auto;
+    transition: none !important;
+    transform: none !important;
   }
 `;
 const AnimatedTitle = ({ title }) => <StyledSpan>{title}</StyledSpan>;

@@ -1,3 +1,10 @@
 body {
-  background-image: url(triangles.png);
+  background-image: linear-gradient(
+    #ff6f61,
+    #edaa86,
+    #d8b998,
+    #ce9e88,
+    #766553
+  );
+  background-repeat: no-repeat;
 }

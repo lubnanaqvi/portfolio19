@@ -1,31 +1,34 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ProjectGrid from './components/ProjectGrid';
-import AnimatedTitle from './components/AnimatedTitle';
-import styled from 'styled-components';
 import './App.css';
+import bg from './squares.png';
+import AnimatedBackGround from './components/AnimatedBackGround';
+import DecoParallax from './components/DecoParallax';
+import pimg from './web.jpg';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
-  const StyledDiv = styled.div`
-    margin: auto;
-    margin-top: 50px;
-    width: 500px;
-  `;
   return (
-    <StyledDiv>
-      <AnimatedTitle title="portfolio-" />
+    <div>
+      <Header />
+      <AnimatedBackGround />
+      <DecoParallax bgurl={pimg} height="500px" width="800px" />
       <ProjectGrid />
-    </StyledDiv>
+      <Footer />
+    </div>
   );
 };
 
 export default App;
 /*
--header footer logo?
--background image?
--add cv
--add onClick for animatedName to open about me  
+-add links to projects
+-deploy gitQuery
+-header footer logo git and linkedin links?
+-background component canvas <draw squares, write front end web developer live>
+-add cv  
 -replace slackD with RSVP for now
--add 'this' as project
--make responsive
+-make responsive 930px
 -npm build and deploy to porfolio on github
+
 */

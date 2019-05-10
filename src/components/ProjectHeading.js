@@ -4,9 +4,13 @@ const ProjectHeading = ({ title }) => {
   const StyledHeading = styled.h2`
     transform: rotate(-90deg);
     position: relative;
-    top: 150px;
-    left: -220px;
-    color: #2e2b24;
+    top: 0px;
+    left: -370px;
+    color: white;
+    @media (max-width: 800px) {
+      top: 50%;
+      left: -57%;
+    }
   `;
   return <StyledHeading>{title}</StyledHeading>;
 };
