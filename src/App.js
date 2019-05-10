@@ -5,6 +5,7 @@ import bg from './squares.png';
 import AnimatedBackGround from './components/AnimatedBackGround';
 import DecoParallax from './components/DecoParallax';
 import pimg from './web.jpg';
+import spimg from './web_small.jpg';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -13,7 +14,12 @@ const App = () => {
     <div>
       <Header />
       <AnimatedBackGround />
-      <DecoParallax bgurl={pimg} height="500px" width="800px" />
+      <DecoParallax
+        bgUrl={pimg}
+        smallBgUrl={spimg}
+        height="500px"
+        width="800px"
+      />
       <ProjectGrid />
       <Footer />
     </div>

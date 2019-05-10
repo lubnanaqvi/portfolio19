@@ -1,6 +1,6 @@
 @keyframes L-anim {
   from {
-    stroke-dashoffset: -600px;
+    stroke-dashoffset: 600px;
   }
 
   to {
@@ -9,7 +9,7 @@
 }
 @keyframes U-anim {
   from {
-    stroke-dashoffset: -600px;
+    stroke-dashoffset: 600px;
   }
 
   to {
@@ -18,7 +18,7 @@
 }
 @keyframes B-anim {
   from {
-    stroke-dashoffset: -600px;
+    stroke-dashoffset: 600px;
   }
 
   to {
@@ -27,7 +27,7 @@
 }
 @keyframes N-anim {
   from {
-    stroke-dashoffset: -600px;
+    stroke-dashoffset: 600px;
   }
 
   to {
@@ -36,7 +36,7 @@
 }
 @keyframes A-anim {
   from {
-    stroke-dashoffset: -600px;
+    stroke-dashoffset: 600px;
   }
 
   to {

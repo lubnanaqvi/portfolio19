@@ -22,8 +22,9 @@ class ProjectLink extends React.Component {
       grid-row: ${grid.gridRow} / span ${grid.spanRow};
     `;
 
-    const StyledTitle = styled.h3`
+    const StyledTitle = styled.h4`
       cursor: pointer;
+      font-family: Helvetica, sans-serif;
       transition: transform 0.5s linear;
       &:hover {
         transform: rotate(-90deg);
